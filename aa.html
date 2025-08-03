@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع السياحة في ود مدني</title>
+    <style>
+        body {
+            background-color: #33f4f8;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin: 20px 0;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: #fff;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            width: 200px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #e0e0e0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+    <script>
+        alert("ابتسم، أنت في ود مدني!");
+
+        function greetUser() {
+            const currentTime = new Date();
+            if (currentTime.getHours() < 12) {
+                alert("صباح الخير");
+            } else if (currentTime.getHours() < 18) {
+                alert("مساء الخير");
+            } else {
+                alert("عمت مساءً");
+            }
+        }
+
+        greetUser();
+    </script>
+</head>
+<body>
+    <h1>مرحباً بكم في موقع السياحة في ود مدني</h1>
+
+    <nav>
+        <a href="f.html">التعريف عني والأعمال التي قمت بها</a>
+        <a href="wsaa.html">البرامج الحسابية</a>
+        <a href="ty.html">التواصل معي</a>
+    </nav>
+
+    <footer>
+        <p>© 2025 جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
